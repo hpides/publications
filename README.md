@@ -42,7 +42,7 @@ Copy, edit, and append the following template block to [the YAML file](publicati
 
 - *DOI* only needs the identifier suffix after "doi.org". Whole URL-encoded DOI paths would work as well, though.
 
-- *Artifacts* can hold as many entries as needed. Links can be internal (TYPO3) and external. Papers saved internally should be saved to ```"https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/YEAR/FILENAME.pdf"```
+- *Artifacts* can hold as many entries as needed. Links can be internal (TYPO3) and external. Papers linked internally should be saved to ```"https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/YEAR/FILENAME.pdf"```
 
 - ```>-``` and ```|-``` are useful for formatting abstract and BibTeX entries, respectively. You may omit them, but the following string must then be written on a single line.  ```>-``` folds line breaks into spaces, ```|-``` preserves linebreaks.
 
