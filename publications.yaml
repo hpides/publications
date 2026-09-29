@@ -5965,7 +5965,14 @@ publications:
     venue: "TPCTC @ VLDB '26"
     year: 2026
     type: "Workshop Paper"
-    abstract: "Stream processing systems (SPSs) process large volumes of data in real time by distributing computation across multiple machines. Many established SPS deployments focus on centralized cloud environments. However, as more data are generated outside of the cloud, forwarding all the raw data can increase the network load and limit the responsiveness of applications. Modern SPSs address this limitation by distributing the computation across sensor, edge, and cloud resources, forming the sensor-edge-cloud (SEC) continuum. Although the performance of SPSs has been studied extensively in cloud-only settings, benchmarks provide limited support for evaluating SPSs under the hardware heterogeneity and network diversity of SEC deployments. To address this gap, we propose SECBench, a benchmarking framework for evaluating SPSs in the SEC continuum. SECBench generates workloads, executes benchmark runs, and measures SPS performance while deploying systems in configurable SEC environments that model hardware and network properties. We demonstrate the applicability of SECBench using a real-world use case with representative workload and deployment characteristics. SECBench provides a foundation for studying how SEC configurations affect SPS performance and for comparing cloud-only and SEC processing models in reproducible benchmark environments."
+    abstract: >- 
+      Stream processing systems (SPSs) process large volumes of data in real time by distributing computation across multiple machines. Many established SPS deployments focus on centralized cloud environments. 
+      However, as more data are generated outside of the cloud, forwarding all the raw data can increase the network load and limit the responsiveness of applications. Modern SPSs address this limitation by 
+      distributing the computation across sensor, edge, and cloud resources, forming the sensor-edge-cloud (SEC) continuum. Although the performance of SPSs has been studied extensively in cloud-only settings, 
+      benchmarks provide limited support for evaluating SPSs under the hardware heterogeneity and network diversity of SEC deployments. To address this gap, we propose SECBench, a benchmarking framework for 
+      evaluating SPSs in the SEC continuum. SECBench generates workloads, executes benchmark runs, and measures SPS performance while deploying systems in configurable SEC environments that model hardware and 
+      network properties. We demonstrate the applicability of SECBench using a real-world use case with representative workload and deployment characteristics. SECBench provides a foundation for studying how 
+      SEC configurations affect SPS performance and for comparing cloud-only and SEC processing models in reproducible benchmark environments.
     doi: ""
     bibtex: ""
     artifacts:
