@@ -6062,8 +6062,8 @@ publications:
     doi: ""
     bibtex: ""
     artifacts:
-      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/hcde25gpuMemoryAccess.pdf"
-      "Slides": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/hcde25gpuMemoryAccess-slides.pdf"
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/hcds25gpuMemoryAccess.pdf"
+      "Slides": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/hcds25gpuMemoryAccess-slides.pdf"
 
   - id: "benson2023pmemcxl"
     title: "What We Can Learn from Persistent Memory for CXL"
@@ -6078,4 +6078,4 @@ publications:
     doi: ""
     bibtex: ""
     artifacts:
-      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2023/nodmc23pmemcxl"
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2023/nodmc23pmemcxl.pdf"
