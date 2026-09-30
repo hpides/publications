@@ -550,7 +550,7 @@ publications:
       - "Tilmann Rabl"
       - "Javier González"
       - "Vivek Shah"
-      - "Pinar Tözün"
+      - "Pınar Tözün"
     venue: "Conference on Innovative Data Systems Research (CIDR)"
     year: 2026
     type: "Conference Paper"
@@ -558,7 +558,7 @@ publications:
     doi: ""
     bibtex: |-
       @inproceedings{DBLP:conf/cidr/HoulborgTLWR00T26,
-        author    = {Houlborg, Emil and Tietgen, Andreas Nicolaj and Lund, Simon A. F. and Weisgut, Marcel and Rabl, Tilmann and González, Javier and Shah, Vivek and Tözün, Pinar},
+        author    = {Houlborg, Emil and Tietgen, Andreas Nicolaj and Lund, Simon A. F. and Weisgut, Marcel and Rabl, Tilmann and González, Javier and Shah, Vivek and Tözün, Pınar},
         title     = {Flexible I/O for Database Management Systems with xNVMe},
         booktitle = {Conference on Innovative Data Systems Research (CIDR)},
         publisher = {www.cidrdb.org},
@@ -4686,7 +4686,7 @@ publications:
       - "Andreas Starzacher"
       - "Benjamin Steinwender"
       - "Ilin Tolovski"
-      - "Pinar Tözün"
+      - "Pınar Tözün"
       - "Wojciech Ulatowski"
       - "Yuanyuan Wang"
       - "Izajasz Wrosz"
@@ -4713,7 +4713,7 @@ publications:
     bibtex: |-
       @inproceedings{damme2022daphne,
         abstract = {Integrated data analysis (IDA) pipelines—that combine data management (DM) and query processing, high-performance computing (HPC), and machine learning (ML) training and scoring—become increasingly common in practice. Interestingly, systems of these areas share many compilation and runtime techniques, and the used—increasingly heterogeneous—hardware infrastructure converges as well. Yet, the programming paradigms, cluster resource management, data formats and representations, as well as execution strategies differ substantially. DAPHNE is an open and extensible system infrastructure for such IDA pipelines, including language abstractions, compilation and runtime techniques, multi-level scheduling, hardware (HW) accelerators, and computational storage for increasing productivity and eliminating unnecessary overheads. In this paper, we make a case for IDA pipelines, describe the overall DAPHNE system architecture, its key components, and the design of a vectorized execution engine for computational storage, HW accelerators, as well as local and distributed operations. Preliminary experiments that compare DAPHNE with MonetDB, Pandas, DuckDB, and TensorFlow show promising results.},
-        author = {Damme, Patrick and Birkenbach, Marius and Bitsakos, Constatinos and Boehm, Matthias and Bonnet, Philippe and Ciorba, Florina and Dokter, Mark and Dowgiallo, Pawel and Eleliemy, Ahmed and Faerber, Christian and Goumas, Georgios and Habich, Dirk and Hedam, Niclas and Hofer, Marlies and Huang, Wenjun and Innerebner, Kevin and Karakostas, Vasileios and Kern, Roman and Kosar, Tomaž and Krause, Alexander and Krems, Daniel and Laber, Andreas and Lehner, Wolfgang and Mier, Eric and Rabl, Tilmann and Ratuszniak, Piotr and Silva, Pedro and Skuppin, Nikolai and Starzacher, Andreas and Steinwender, Benjamin and Tolovski, Ilin and Tözün, Pinar and Ulatowski, Wojciech and Wang, Yuanyuan and Wrosz, Izajasz and Zamuda, Aleš and Zhang, Ce and Xiang Zhu, Xiao},
+        author = {Damme, Patrick and Birkenbach, Marius and Bitsakos, Constatinos and Boehm, Matthias and Bonnet, Philippe and Ciorba, Florina and Dokter, Mark and Dowgiallo, Pawel and Eleliemy, Ahmed and Faerber, Christian and Goumas, Georgios and Habich, Dirk and Hedam, Niclas and Hofer, Marlies and Huang, Wenjun and Innerebner, Kevin and Karakostas, Vasileios and Kern, Roman and Kosar, Tomaž and Krause, Alexander and Krems, Daniel and Laber, Andreas and Lehner, Wolfgang and Mier, Eric and Rabl, Tilmann and Ratuszniak, Piotr and Silva, Pedro and Skuppin, Nikolai and Starzacher, Andreas and Steinwender, Benjamin and Tolovski, Ilin and Tözün, Pınar and Ulatowski, Wojciech and Wang, Yuanyuan and Wrosz, Izajasz and Zamuda, Aleš and Zhang, Ce and Xiang Zhu, Xiao},
         booktitle = {12th Annual Conference on Innovative Data Systems Research (CIDR ’22)},
         keywords = {cidr daphne dataanalysis pipelines},
         title = {DAPHNE: An Open and Extensible System Infrastructure for Integrated Data Analysis Pipelines},
@@ -5977,3 +5977,105 @@ publications:
     bibtex: ""
     artifacts:
       "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2026/Taha_Tekdogan_TPCTC.pdf"
+
+  - id: "hackenberg2026shadix"
+    title: "Shadix: A Distributed Message Broker Leveraging Shared Disaggregated CXL Memory"
+    authors:
+      - "Julian Hackenberg"
+      - "Lukas Hagen"
+      - "Marcel Weisgut"
+      - "Florian Schmeller"
+      - "Tilmann Rabl"
+    venue: "Proceedings of the Workshop on Disruptive Memory Systems (DIMES @ SOSP)"
+    year: 2026
+    type: "Workshop Paper"
+    abstract: ""
+    doi: ""
+    bibtex: ""
+    artifacts:
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2026/dimes26shadix.pdf"
+
+  - id: "weisgut2025cxlperformance"
+    title: "CXL Memory Performance for In-Memory Data Processing"
+    authors:
+      - "Marcel Weisgut"
+      - "Daniel Ritter"
+      - "Pınar Tözün"
+      - "Lawrence Benson"
+      - "Tilmann Rabl"
+    venue: "Proceedings of the VLDB Endowment 18 (9), 3119–3133"
+    year: 2025
+    type: "Conference Paper"
+    abstract: ""
+    doi: ""
+    bibtex: ""
+    artifacts:
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/vldb25cxlperformance.pdf"
+      "Slides": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/vldb25cxlperformance-slides.pdf"
+      "Poster": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/vldb25cxlperformance-poster.pdf"
+
+  - id: "weisgut2025cxlbench"
+    title: "CXL-Bench: Benchmarking Shared CXL Memory Access"
+    authors:
+      - "Marcel Weisgut"
+      - "Daniel Ritter"
+      - "Florian Schmeller"
+      - "Pınar Tözün"
+      - "Tilmann Rabl"
+    venue: "Proceedings of the International Workshop on Accelerating Analytics and Data Management Systems Using Modern Processor and Storage Architectures (ADMS @ VLDB)"
+    year: 2025
+    type: "Workshop Paper"
+    abstract: ""
+    doi: ""
+    bibtex: ""
+    artifacts:
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/adms25cxlbench.pdf"
+      "Slides": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/adms25cxlbench-slides.pdf"
+
+  - id: "mahling2025prefetching"
+    title: "Fetch Me If You Can: Evaluating CPU Cache Prefetching and Its Reliability on High Latency Memory"
+    authors:
+      - "Fabian Mahling"
+      - "Marcel Weisgut"
+      - "Tilmann Rabl"
+    venue: "Proceedings of the International Workshop on Data Management on New Hardware (DaMoN @ SIGMOD)"
+    year: 2025
+    type: "Workshop Paper"
+    abstract: ""
+    doi: ""
+    bibtex: ""
+    artifacts:
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/damon25prefetching.pdf"
+      "Slides": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/damon25prefetching-slides.pdf"
+      "Poster": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/damon25prefetching-poster.pdf"
+
+  - id: "werner2025nvlink"
+    title: "Towards Memory Disaggregation via NVLink C2C: Benchmarking CPU-Requested GPU Memory Access"
+    authors:
+      - "Felix Werner"
+      - "Marcel Weisgut"
+      - "Tilmann Rabl"
+    venue: "Proceedings of the Workshop on Heterogeneous Composable and Disaggregated Systems (HCDS @ ASPLOS/EuroSys)"
+    year: 2025
+    type: "Workshop Paper"
+    abstract: ""
+    doi: ""
+    bibtex: ""
+    artifacts:
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/hcde25gpuMemoryAccess.pdf"
+      "Slides": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2025/hcde25gpuMemoryAccess-slides.pdf"
+
+  - id: "benson2023pmemcxl"
+    title: "What We Can Learn from Persistent Memory for CXL"
+    authors:
+      - "Lawrence Benson"
+      - "Marcel Weisgut"
+      - "Tilmann Rabl"
+    venue: "Workshop on Novel Data Management Ideas on Heterogeneous (Co-)Processors (NoDMC @ BTW)"
+    year: 2023
+    type: "Workshop Paper"
+    abstract: ""
+    doi: ""
+    bibtex: ""
+    artifacts:
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2023/nodmc23pmemcxl"
