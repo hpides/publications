@@ -430,7 +430,7 @@ publications:
       }
     artifacts:
       "Code": "https://github.com/hpides/alsatian"
-      "Paper (single column)": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2026/alsatian.pdf"
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2026/alsatian.pdf"
       "Paper (extended, double column)": "https://hpi.de/fileadmin/user_upload/fachgebiete/rabl/publications/2025/alsatian-double-column.pdf"
       "Poster": "https://hpi.de/fileadmin/user_upload/fachgebiete/rabl/publications/2025/alsatian-poster.pdf"
       "Video": "https://hpi.de/fileadmin/user_upload/fachgebiete/rabl/publications/2025/alsatian-2025-03-24.mp4"
