@@ -6095,3 +6095,37 @@ publications:
     bibtex: ""
     artifacts:
       "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2023/nodmc23pmemcxl.pdf"
+        - id: "templatePublication"
+   
+    
+    
+    title: "Filter-Sliced Aggregation for Ad-hoc Stream Processing"
+    authors:
+      - "Magnus Menger"
+      - "Wang Yue"
+      - "Tilmann Rabl"
+    venue: "EDBT 2027"
+    year: 2026
+    type: "Conference Paper"
+    abstract: >-
+      Most stream processing systems focus on independently executed
+long-running queries. In practice, many applications also have
+ad-hoc queries that are dynamically created and stopped. For
+windowed aggregation queries, window slicing can share partial
+aggregates between overlapping windows, but only for queries
+with identical filters, aggregation functions, and grouping keys.
+In this paper,we introduce filter slicing, a technique for sharing
+partial aggregates between aggregation queries with one numerical
+range predicate per query. Different queries may filter on
+different columns. We combine filter slicing with window slicing
+and aggregation decomposition in a shared aggregation operator
+for ad-hoc stream processing that shares partial aggregates
+between queries with differing windows, filters, and aggregation
+functions. We implement and evaluate our operator against
+existing aggregation approaches. Our operator achieves similar
+single-query performance and significantly higher throughput
+when multiple queries are active simultaneously.
+    doi: ""
+    bibtex: |-
+         artifacts:
+      "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2026/Filter-Sliced_Aggregation_for_Ad-hoc_Stream_Processing.pdf"
