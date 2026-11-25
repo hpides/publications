@@ -6096,7 +6096,8 @@ publications:
     artifacts:
       "Paper": "https://hpi.de/fileadmin/user_upload/90_Research_Groups/rabl/Documents/papers/2023/nodmc23pmemcxl.pdf"
         - id: "templatePublication"
-    
+
+  - id: "menger2026filter"
     title: "Filter-Sliced Aggregation for Ad-hoc Stream Processing"
     authors:
       - "Magnus Menger"
